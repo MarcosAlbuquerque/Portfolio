@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Portfólio</title>
+        <meta charset="uft-8">
+        <style>
+            * {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
+            }
+            header * {
+                font-weight: 100;
+            }
+            ol {
+                padding-inline-start: 17px;
+                list-style-type: none;                
+            }
+            a[href="#"] {
+                text-decoration: none;
+            }
+            header nav ul li {
+                flex-direction: row;
+                float: left;
+                display: flex;
+                vertical-align: middle;
+                padding: 10px;
+            }
+            header nav ul li a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: yellow;
+                font-size: 15px;
+            }
+            header nav ul li a:hover {
+                color: thistle;
+            }
+        </style>
+    </head>
+    <body style="margin:0">
+        <header>
+            <nav style="display: inline-block;background-color: #000;width: 100%;">
+                <ul style="display: inline;">
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <section style="display: flex;flex-wrap: nowrap;">
+                <a href="#"><img src="imgEu.jpeg" style="width:300px;max-height:300px;margin-right: 10px" alt="Minha foto recente"></a>
+                <div>
+                    <h1>Marcos Albuquerque</h1>
+                    <h2 style="font-size: 18px;">Estudante de Desenvolvimento de Software Web | Trybe</h2>
+                    <h2 style="font-size: 18px;">Brasileiro / Pernambucano</h2>
+                    <h3 style="font-size: 15px;">Apaixonado por tecnologia desde meus 16 anos, comecei como técnico de montagem e manutenção de computadores (freelancer) no qual aprofundei o conhecimento na informática, hoje busco ser um profissional que atua na área da programação, seja ela em Front-End ou Back-End.<br><br>Sou estudante de Análise e Desenvolvimento de Sistemas pela UNINABUCO, também sou aluno de Desenvolvimento de software da Trybe e possuo curso técnico-profissionalizante de Administração pelo SENAC.<br><br>Tenho sede de conhecimento, busco sempre aprimorar e sou autodidata.</h2>                
+                </div>
+            </section>
+        </header>
+        <main>
+            <section style="margin-top: 30px">
+                <article>
+                    <h1 id="habilidades">Habilidades</h1>
+                    <ol>
+                        <li>Habilidade 1 - <strong>85%</strong></li>
+                        <li>Habilidade 2 - <strong>65%</strong></li>
+                        <li>Habilidade 3 - <strong>35%</strong></li>
+                        <li>Habilidade 4 - <strong>75%</strong></li>
+                    </ol>
+                </article>
+                <article>
+                    <h1 id="certificados">Certificados</h1>
+                    <ol>
+                        <li>Certificado 1 - <strong>Total horas: 123Hr</strong></li>
+                        <li>Certificado 2 - <strong>Total horas: 13Hr</strong></li>
+                        <li>Certificado 3 - <strong>Total horas: 80Hr</strong></li>
+                        <li>Certificado 4 - <strong>Total horas: 53Hr</strong></li>
+                    </ol>
+                </article>
+                <article>
+                    <h1 id="projetos">Projetos</h1>
+                    <ol>
+                        <li><a href="#">Projeto 1</a></li>
+                        <li><a href="#">Projeto 2</a></li>
+                        <li><a href="#">Projeto 3</a></li>
+                    </ol>
+                </article>
+            </section>
+        </main>
+        <footer>            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consectetur doloribus suscipit aperiam, ad recusandae sint! Non et vel numquam accusamus dolor doloribus harum voluptates dolorum eveniet! Eum, voluptatum maiores.</p>
+        </footer>
+    </body>
+</html>
